@@ -1,0 +1,8 @@
+applications:
+- name: zipinator
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  routes:
+  - route: zipinator.cfapps.io
+  stack: cflinuxfs2
